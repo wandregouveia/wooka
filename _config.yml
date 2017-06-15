@@ -65,3 +65,7 @@ prose:
           element: "text"
           label: "prefixo dos arquivos de imagem para serem incluidos na galeria"
           placeholder: "tartarugas_"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
