@@ -89,6 +89,41 @@
   margin-top: 48px;
 }
 
+.wooka-acoes-text {
+  padding: 48px;
+}
+
+.wooka-acoes-text svg {
+  margin-bottom: 48px;
+}
+
+.wooka-acoes-text .wooka-balloon {
+  max-width: 30px;
+  width: 50%;
+  fill: #{{ site.data.setup.color.azul }};
+}
+
+.wooka-acoes-text .wooka-lemon {
+  max-width: 52px;
+  width: 40%;
+  fill: #{{ site.data.setup.color.primary }};
+}
+
+.wooka-acao-img {
+  position: relative;
+}
+
+.wooka-acao-img img {
+  width: 100%;
+}
+
+.wooka-subtitle {
+  position: absolute;
+  bottom: 0;
+  padding: 0 32px;
+  text-align: right;
+}
+
 .wooka-white-on-black {
   background-color: #000;
   color: #fff;  
@@ -143,6 +178,11 @@
 .wooka-contact {
   padding-top: 96px;
   padding-bottom: 96px;
+}
+
+.wooka-portfolio {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .wooka-contact svg {
