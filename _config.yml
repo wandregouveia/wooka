@@ -64,4 +64,4 @@ prose:
         field:
           element: "text"
           label: "prefixo dos arquivos de imagem para serem incluidos na galeria"
-          placeholder: "tartaruga"
+          placeholder: "tartarugas_"
