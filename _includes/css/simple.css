@@ -14,6 +14,11 @@
   text-align: left;
 }
 
+.wooka-32 {
+  font-size: 32px;
+  line-height: 1.6;
+}
+
 .wooka-25 {
   font-size: 25px;
   line-height: 1;
@@ -175,12 +180,29 @@
   font-weight: 900;
 }
 
+.wooka-como-fazemos-row {
+  font-family: "Lulo-Clean";
+  text-transform: uppercase;
+}
+
+.wooka-como-fazemos-text p {
+  font-family: {{ site.data.setup.font.primary }};
+  margin: 0 48px;
+  font-weight: 300;
+  text-align: left;
+  text-transform: none;
+}
+
+.wooka-como-fazemos-text p+p {
+  margin-top: 25px;
+}
+
 .wooka-contact {
   padding-top: 96px;
   padding-bottom: 96px;
 }
 
-.wooka-portfolio {
+.wooka-section {
   padding-top: 48px;
   padding-bottom: 48px;
 }
