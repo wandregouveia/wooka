@@ -1,20 +1,7 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.data.setup.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                        <li><a href="mailto:falecom@wooka.com.br"><i class="fa fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 wooka-footer-wrapper">
-                  <div class="col-md-4 wooka-footer"></div>
-                </div>
-            </div>
-        </div>
-    </footer>
+<footer style="padding: 0;">
+  <div class="container wooka-footer-container">
+    <div class="col-lg-12 wooka-footer-wrapper">
+      <div class="col-lg-12 wooka-footer"></div>
+    </div>
+  </div>
+</footer>

@@ -207,15 +207,23 @@
   fill: #{{ site.data.setup.color.primary }};
 }
 
+.wooka-contact-footer {
+  margin: 32px 0 0;
+}
+
 .wooka-footer-wrapper {
   background-color: #{{ site.data.setup.color.primary }};
-  margin-top: 16px;
   padding: 16px 0;
   width: 100%;
 }
 
 .wooka-header-logo {
   height: 100%;
+}
+
+.wooka-footer-container {
+  width: 100%;
+  padding: 0;
 }
 
 .wooka-footer {

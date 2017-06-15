@@ -41,6 +41,17 @@
                         </div>
                     </form>
                 </div>
+              <div class="col-lg-12 text-center wooka-contact-footer">
+                <h3 class="wooka-25 wooka-white">TEL: (11) 94983-6369</h3>
+                <ul class="list-inline social-buttons">
+                  {% for network in site.data.setup.social %}
+                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                    </li>
+                  {% endfor %}
+                  <li><a href="mailto:falecom@wooka.com.br"><i class="fa fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </div>
     </section>
