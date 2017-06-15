@@ -60,3 +60,8 @@ prose:
           element: "text"
           label: "imagem de capa para o projeto"
           placeholder: "roundicons.png"
+      - name: "swipebox"
+        field:
+          element: "text"
+          label: "prefixo dos arquivos de imagem para serem incluidos na galeria"
+          placeholder: "tartaruga"

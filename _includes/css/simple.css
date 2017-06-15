@@ -292,3 +292,23 @@
   width: 100%;
   height: 100%;
 }
+
+.swipebox-gallery {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.swipebox-gallery .swipebox {
+  width: 20%;
+  margin: 24px 5px 0;
+}
+
+.swipebox-gallery .swipebox img {
+  width: 100%;
+}
