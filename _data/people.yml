@@ -1,0 +1,34 @@
+# Social networks available: twitter, facebook, stack-overflow, google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin
+
+- name: Kay Garland
+  pic: kay.jpg
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: larry.jpg
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: diana.jpg
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #

@@ -1,0 +1,229 @@
+@font-face{
+    font-family:"Lulo-Clean";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
+}
+
+@font-face{
+    font-family:"Trend-Sans";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/392aa98f-a1bf-4dc4-9def-a5d27c73a0de.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/392aa98f-a1bf-4dc4-9def-a5d27c73a0de.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/29c66f1e-5243-4f34-8a19-47405f72954c.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c81cca03-5f1a-4252-9950-096e60e2bde9.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/569b48ce-f71b-4e2d-a80a-1920efbd7187.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/f284409f-3669-43df-bfe1-f9f9ee1bbc07.svg#f284409f-3669-43df-bfe1-f9f9ee1bbc07") format("svg");
+}
+
+.wooka-left {
+  text-align: left;
+}
+
+.wooka-25 {
+  font-size: 25px;
+  line-height: 1;
+}
+
+.wooka-17 {
+  font-size: 17px;
+}
+
+.wooka-12 {
+  font-size: 12px;
+}
+
+.wooka-red {
+  color: #{{ site.data.setup.color.primary }};
+}
+
+.wooka-white {
+  color: #fff;
+}
+
+.wooka-blue {
+  color: #{{ site.data.setup.color.azul }};
+}
+
+.wooka-services {
+  background-image: url("{{ site.baseurl }}img/services-background.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  background-color: #000;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.wooka-services-heading {
+  font-family: "Trend-Sans";
+  font-size: 106px;
+  text-align: center;
+  margin: 0 auto 96px;
+  letter-spacing: -9px;
+  line-height: 1.2;
+  color: #fff;
+  width: 80%;
+}
+
+.wooka-service-item-heading {
+  background-color: #{{ site.data.setup.color.primary }};
+  color: #fff;
+  font-family: "Lulo-Clean";
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}
+
+.wooka-service-item-text {
+  font-family: {{ site.data.setup.font.primary }};
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.wooka-que-somos {
+  padding: 48px 0;
+}
+
+.wooka-que-somos-row {
+  font-family: "Lulo-Clean";
+  text-transform: uppercase;
+  padding: 16px 4px;
+  margin-top: 48px;
+}
+
+.wooka-white-on-black {
+  background-color: #000;
+  color: #fff;  
+}
+
+.wooka-agencia {
+  position: relative;
+  margin: 0;
+  padding: 25% 64px;
+  background: #fff;
+  color: #000;
+}
+
+.wooka-agencia p {
+  font-family: {{ site.data.setup.font.primary }};
+  font-size: 30px;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  text-transform: none;
+  margin-top: 25px;
+}
+
+.wooka-agencia svg {
+  width: 18%;
+  position: absolute;
+  right: 64px;
+  bottom: 0;
+  fill: #{{ site.data.setup.color.primary }};
+}
+
+.wooka-rotina {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.wooka-rotina p {
+  font-family: {{ site.data.setup.font.primary }};
+  margin: 0 48px 25px;
+  font-weight: 300;
+  text-transform: none;
+}
+
+#wooka-rotina-title {
+  text-transform: uppercase;
+  font-size: 45px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.wooka-contact {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.wooka-contact svg {
+  width: 10%;
+  fill: #{{ site.data.setup.color.primary }};
+}
+
+.wooka-footer-wrapper {
+  background-color: #{{ site.data.setup.color.primary }};
+  margin-top: 16px;
+  padding: 16px 0;
+  width: 100%;
+}
+
+.wooka-header-logo {
+  height: 100%;
+}
+
+.wooka-footer {
+  width: 100%;
+  height: 80px;
+  background-color: #{{ site.data.setup.color.primary }};
+  background-image: url("{{ site.baseurl }}img/wooka-footer.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+}
+
+.img-thumbnail-container {
+  width: 100%;
+  overflow: hidden;
+  max-height: 289px;
+}
+
+@media (min-width: 770px) {
+  .img-thumbnail-container {
+    max-height: 261px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-thumbnail-container {
+    max-height: 222px;
+  }
+}
+
+@media (min-width: 1210px) {
+  .img-thumbnail-container {
+    max-height: 261px;
+  }
+}
+
+.img-thumbnail {
+  width: 100%;
+  max-width: 400px;
+}
+
+.video-wrapper-16x9 {
+  padding-bottom: 56.25%;
+}
+
+.video-wrapper-4x3 {
+  padding-bottom: 75%;
+}
+
+.video-wrapper-3x1 {
+  padding-bottom: 33%;
+}
+
+.video-wrapper {
+  position: relative;
+  margin: 1rem auto;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

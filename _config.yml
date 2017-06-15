@@ -1,0 +1,62 @@
+title: Wooka
+
+url: http://wooka.com
+baseurl: /wooka/
+port: 4666
+permalink: /:title/
+encoding: utf-8
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+exclude: [.git, .gitignore, .sass-cache, README.md, jekyllbuild]
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+
+# prose.io
+prose:
+  media: 'img/portfolio'
+  ignore:
+    - .gitignore
+    - _config.yml
+    - _layouts
+    - _includes
+    - _plugins
+    - css
+    - js
+    - mail
+    - CNAME
+    - index.html
+    - style.css
+    - feed.xml
+    - img/favicons
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "nome do projeto"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "subtitulo do projeto"
+      - name: "video"
+        field:
+          element: "text"
+          label: "código de embed de algum vídeo no youtube ou vimeo."
+          placeholder: "//player.vimeo.com/video/165527282?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0179"
+      - name: "img"
+        field:
+          element: "text"
+          label: "imagem de capa para o projeto"
+          placeholder: "roundicons.png"

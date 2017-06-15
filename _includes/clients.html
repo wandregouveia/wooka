@@ -1,0 +1,14 @@
+<!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+              {% for client in site.data.clients %}
+                <div class="col-md-3 col-sm-6">
+                  <a href="{{ client.link }}" target="_blank">
+                    <img src="img/clients/{{ client.pic }}" class="img-responsive img-centered" alt="client.name">
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
+        </div>
+    </aside>
