@@ -36,6 +36,9 @@ prose:
     - style.css
     - feed.xml
     - img/favicons
+    - img/swipebox
+    - img/clients
+    - img/people
   metadata:
     _posts:
       - name: "layout"
