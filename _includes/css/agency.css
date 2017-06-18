@@ -270,6 +270,13 @@ header {
     color: #fff;
     background-color: #333;
     width: 100%;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .intro-text {
