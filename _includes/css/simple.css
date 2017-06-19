@@ -10,6 +10,16 @@
     src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/392aa98f-a1bf-4dc4-9def-a5d27c73a0de.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/29c66f1e-5243-4f34-8a19-47405f72954c.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c81cca03-5f1a-4252-9950-096e60e2bde9.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/569b48ce-f71b-4e2d-a80a-1920efbd7187.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/f284409f-3669-43df-bfe1-f9f9ee1bbc07.svg#f284409f-3669-43df-bfe1-f9f9ee1bbc07") format("svg");
 }
 
+@font-face {
+    font-family: "Primus";
+    src: url("{{ site.baseurl }}css/primus/Primus-webfont.eot");
+    src: url("{{ site.baseurl }}css/primus/Primus-webfont.woff2") format("woff2"),
+         url("{{ site.baseurl }}css/primus/Primus-webfont.woff") format("woff"),
+         url("{{ site.baseurl }}css/primus/Primus-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .wooka-32 {
   font-size: 32px;
   line-height: 1.6;
@@ -41,6 +51,12 @@
 }
 
 .wooka-blue {
+  color: #{{ site.data.setup.color.azul }};
+}
+
+#wooka-home-header-title {
+  font-family: "Primus";
+  letter-spacing: 9px;
   color: #{{ site.data.setup.color.azul }};
 }
 
