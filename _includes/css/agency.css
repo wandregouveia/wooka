@@ -270,6 +270,13 @@ header {
     color: #fff;
     background-color: #333;
     width: 100%;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .intro-text {
@@ -368,7 +375,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(186,43,66,.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.setup.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 

@@ -4,11 +4,11 @@ description: ""
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: BB2B42
-  secondary: EE3B52
+  primary: BA2B42
+  secondary: E61E3E
   secondary-dark: 333 
   muted: 777
-  azul: 35748F
+  azul: 1695A8
 
 # Font Families
 font:
