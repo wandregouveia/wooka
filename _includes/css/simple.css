@@ -54,6 +54,21 @@
   color: #{{ site.data.setup.color.azul }};
 }
 
+.navbar-default {
+  background-color: #222;
+  padding: 5px 0;
+}
+
+@media (min-width: 770px) {
+  .navbar-default {
+    padding: 10px 0;
+  }
+}
+
+header {
+  margin-top: 70px;
+}
+
 #wooka-home-header-title {
   font-family: "Primus";
   letter-spacing: 9px;
