@@ -15,9 +15,11 @@ font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
+email: falecom@wooka.com.br
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
     url: https://www.facebook.com/WookaArt/
   - title: envelope
-    url: mailto:falecom@wooka.com.br
+    url: "mailto:"

@@ -44,8 +44,10 @@
               <div class="col-lg-12 text-center wooka-contact-footer">
                 <ul class="list-inline social-buttons">
                   {% for network in site.data.setup.social %}
-                    <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                    </li>
+                    {% assign email_url = "mailto:" | append: site.data.setup.email %}
+                    <li><a href="{{ network.url | replace: 'mailto:', email_url }}">
+                      <i class="fa fa-{{ network.title }}"></i>
+                      </a></li>
                   {% endfor %}
                 </ul>
               </div>
